@@ -2,10 +2,10 @@
 
 # Tipos de Test
 
-## Exitos
+##Exitos
 
-## Fallido
+##Fallido
 
-## Inoncluso
+##Inoncluso
 
-## Ignorado
+##Ignorado
