@@ -3,6 +3,25 @@ namespace StringTest
     public class Tests
     {
         [Test]
+        public void TestQuePasa()
+        {
+            //Pasa
+            Assert.Pass();
+        }
+
+        [Test]
+        public void TestInconcluso()
+        {
+            Assert.Inconclusive();
+        }
+
+        [Test]
+        public void TestIgnorado()
+        {
+            Assert.Ignore();
+        }
+
+        [Test]
         public void StringHolaTieneLogitud4()
         {
             //Arrange
@@ -12,7 +31,7 @@ namespace StringTest
             var longitud = stringHola.Length;
 
             //Assert
-            Assert.AreEqual(4, longitud);
+            Assert.AreEqual(1, longitud);
         }
 
         [Test]
