@@ -5,11 +5,21 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fundamentos", "Fundamentos", "{69FB859F-D83F-415B-803C-65B9A7D44239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasString", "PruebasString\PruebasString.csproj", "{6AE955B3-5A8F-4E98-B6ED-12A0B2167CC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebasString", "PruebasString\PruebasString.csproj", "{6AE955B3-5A8F-4E98-B6ED-12A0B2167CC7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Con NUnit", "Test Con NUnit", "{6296807B-CFC2-43A7-AB1D-204FB724F556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringTest", "StringTest\StringTest.csproj", "{D76AC594-0176-443C-B49E-01F46AB61AC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringTest", "StringTest\StringTest.csproj", "{D76AC594-0176-443C-B49E-01F46AB61AC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Convenciones NUnit", "Convenciones NUnit", "{B9C74D6E-CE09-4878-825C-F8B3999170D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{415FD50D-9165-42EB-9647-7DDCD38647BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.Test", "Dominio.Test\Dominio.Test.csproj", "{929AE0BE-FDBB-468A-A6A2-5D627FCC0B89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Exception", "Test Exception", "{86ECA5E0-F17D-430B-A338-899F2061E035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasExcepciones", "PruebasExcepciones\PruebasExcepciones.csproj", "{7E5A5435-FA4F-4F71-A604-7BFBC77F69F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +35,18 @@ Global
 		{D76AC594-0176-443C-B49E-01F46AB61AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D76AC594-0176-443C-B49E-01F46AB61AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D76AC594-0176-443C-B49E-01F46AB61AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415FD50D-9165-42EB-9647-7DDCD38647BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415FD50D-9165-42EB-9647-7DDCD38647BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415FD50D-9165-42EB-9647-7DDCD38647BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415FD50D-9165-42EB-9647-7DDCD38647BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929AE0BE-FDBB-468A-A6A2-5D627FCC0B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929AE0BE-FDBB-468A-A6A2-5D627FCC0B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929AE0BE-FDBB-468A-A6A2-5D627FCC0B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929AE0BE-FDBB-468A-A6A2-5D627FCC0B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5A5435-FA4F-4F71-A604-7BFBC77F69F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5A5435-FA4F-4F71-A604-7BFBC77F69F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5A5435-FA4F-4F71-A604-7BFBC77F69F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5A5435-FA4F-4F71-A604-7BFBC77F69F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +54,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6AE955B3-5A8F-4E98-B6ED-12A0B2167CC7} = {69FB859F-D83F-415B-803C-65B9A7D44239}
 		{D76AC594-0176-443C-B49E-01F46AB61AC6} = {6296807B-CFC2-43A7-AB1D-204FB724F556}
+		{415FD50D-9165-42EB-9647-7DDCD38647BB} = {B9C74D6E-CE09-4878-825C-F8B3999170D8}
+		{929AE0BE-FDBB-468A-A6A2-5D627FCC0B89} = {B9C74D6E-CE09-4878-825C-F8B3999170D8}
+		{7E5A5435-FA4F-4F71-A604-7BFBC77F69F6} = {86ECA5E0-F17D-430B-A338-899F2061E035}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C24EE9FB-E9A9-4314-B270-366A951E9CBA}
