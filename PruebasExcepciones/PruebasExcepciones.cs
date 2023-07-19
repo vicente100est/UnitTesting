@@ -25,7 +25,7 @@ namespace PruebasExcepciones
             [Test]
             public void InvocarSobreUnMetodoDeUnaReferenciaQueEsNullLanzaNullReferenceException()
             {
-                ArrayList arr = null;
+                ArrayList arr = null; 
                 Assert.Throws<NullReferenceException>(() => arr.Clear());
             }
         }
